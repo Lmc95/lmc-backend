@@ -37,6 +37,7 @@ G:\argentina-programa\backendlmc\src\main\java\com\portfoliolmc\lucas\Service\Im
 G:\argentina-programa\backendlmc\src\main\java\com\portfoliolmc\lucas\Service\SExperiencia.java
 G:\argentina-programa\backendlmc\src\main\java\com\portfoliolmc\lucas\Dto\dtoPersona.java
 G:\argentina-programa\backendlmc\src\main\java\com\portfoliolmc\lucas\Security\Service\UserDetailsImpl.java
+G:\argentina-programa\backendlmc\src\main\java\com\portfoliolmc\lucas\Security\Controller\bcryptEncoder.java
 G:\argentina-programa\backendlmc\src\main\java\com\portfoliolmc\lucas\Security\Controller\Mensaje.java
 G:\argentina-programa\backendlmc\src\main\java\com\portfoliolmc\lucas\Controller\CExperiencia.java
 G:\argentina-programa\backendlmc\src\main\java\com\portfoliolmc\lucas\Dto\dtoExperiencia.java
