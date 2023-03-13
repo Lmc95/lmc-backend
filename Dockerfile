@@ -3,6 +3,6 @@
 #ENTRYPOINT ["java","-jar","/lmc95-app.jar"]
 
 FROM amazoncorretto:11-alpine-jdk
-COPY target/SpringBoot-0.0.1-SNAPSHOT.jar SpringBoot-0.0.1-SNAPSHOT.jar
+COPY target/lucas-0.0.1-SNAPSHOT.jar lucas-0.0.1-SNAPSHOT.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/SpringBoot-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","/lucas-0.0.1-SNAPSHOT.jar"]
