@@ -1,0 +1,72 @@
+
+package com.portfoliolmc.lucas.Dto;
+
+import javax.validation.constraints.NotBlank;
+
+
+public class dtoPersona {
+    @NotBlank
+    private String nombre;
+    @NotBlank
+    private String apellido;
+    @NotBlank
+    private String rol;
+    @NotBlank
+    private String descripcion;
+    @NotBlank
+    private String img;
+
+    public dtoPersona() {
+    }
+
+    public dtoPersona(String nombre, String apellido, String rol, String descripcion, String img, String redes) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.rol = rol;
+        this.descripcion = descripcion;
+        this.img = img;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+    
+    public String getRol() {
+        return rol;
+    }
+
+    public void setRol(String rol) {
+        this.nombre = rol;
+    }
+    
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
+    }
+    
+    
+}
