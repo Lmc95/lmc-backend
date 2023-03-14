@@ -43,6 +43,7 @@ public class PersonaController {
         return new ResponseEntity(persona, HttpStatus.OK);
     }
     
+    /*
     @PostMapping("/create")
     public ResponseEntity<?> create(@RequestBody dtoPersona dtopersona){
         if(StringUtils.isBlank(dtopersona.getNombre())){
@@ -58,7 +59,7 @@ public class PersonaController {
         personaService.save(persona);
         return new ResponseEntity(new Mensaje("Persona creada"), HttpStatus.OK);
                 
-    }
+    }*/
 
     @PutMapping("/update/{id}")
     public ResponseEntity<?> update(@PathVariable("id") int id, @RequestBody dtoPersona dtopersona){
