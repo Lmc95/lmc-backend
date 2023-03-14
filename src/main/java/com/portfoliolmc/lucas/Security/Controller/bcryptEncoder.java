@@ -1,5 +1,5 @@
 
-package com.portfoliolmc.lucas.Security.Controller;
+/*package com.portfoliolmc.lucas.Security.Controller;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
@@ -17,4 +17,4 @@ public class bcryptEncoder{
         System.out.println(hashedPassword);
     }
 }
-
+*/

@@ -14,7 +14,6 @@ com\portfoliolmc\lucas\Security\jwt\JwtEntryPoint.class
 com\portfoliolmc\lucas\Security\Controller\Mensaje.class
 com\portfoliolmc\lucas\Service\ImpPersonaService.class
 com\portfoliolmc\lucas\Security\Dto\NuevoUsuario.class
-com\portfoliolmc\lucas\Security\Controller\bcryptEncoder.class
 com\portfoliolmc\lucas\Entity\hys.class
 com\portfoliolmc\lucas\Security\Repository\iRolRepository.class
 com\portfoliolmc\lucas\Security\Service\RolService.class
